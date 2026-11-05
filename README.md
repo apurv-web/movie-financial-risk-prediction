@@ -19,7 +19,7 @@ Votes, vote counts and popularity were excluded on purpose to avoid data leakage
 | File | What it is |
 | --- | --- |
 | `movie_financial_risk.ipynb` | Full project code: cleaning, features, models, evaluation, feature importance |
-| `data/tmdb_5000_movies.csv` | Dataset (TMDB 5000 Movie Dataset) |
+| `tmdb_5000_movies.csv` | Dataset (TMDB 5000 Movie Dataset) |
 | `requirements.txt` | Python packages needed |
 
 ## Dataset
@@ -31,5 +31,5 @@ Movie metadata comes from The Movie Database (TMDb). The file is included here o
 ## How to run
 
 1. Install the packages: `pip install -r requirements.txt`
-2. Keep `tmdb_5000_movies.csv` inside the `data/` folder.
+2. Keep `tmdb_5000_movies.csv` in the same folder as the notebook.
 3. Open `movie_financial_risk.ipynb` in Jupyter Notebook and run the cells from top to bottom.
